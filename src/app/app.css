@@ -1,0 +1,43 @@
+.container {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+nav {
+  text-align: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #c9b9a8;
+  margin-bottom: 25px;
+}
+
+nav a {
+  color: #2e2a26;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 0.8rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding-bottom: 3px;
+}
+
+nav a:hover {
+  border-bottom: 1px solid #2e2a26;
+}
+
+nav a.active {
+  border-bottom: 1px solid #2e2a26;
+}
+
+.content {
+  margin-top: 25px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 15px 0;
+  border-top: 1px solid #c9b9a8;
+  color: #9a8e82;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}

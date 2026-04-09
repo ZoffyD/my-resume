@@ -1,0 +1,18 @@
+.skill {
+  padding: 10px 0;
+}
+
+.skill ul {
+  margin-top: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.skill li {
+  padding: 12px 0;
+  border-bottom: 1px solid #e8e0d6;
+}
+
+.skill li:last-child {
+  border-bottom: none;
+}

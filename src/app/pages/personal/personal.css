@@ -1,0 +1,19 @@
+.personal {
+  padding: 10px 0;
+}
+
+table {
+  margin: 15px 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #e8e0d6;
+}
+
+table td:first-child {
+  width: 120px;
+  color: #9a8e82;
+}

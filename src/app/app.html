@@ -1,0 +1,19 @@
+<div class="container">
+  <nav>
+    <a routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a>
+    <a routerLink="personal" routerLinkActive="active">Personal</a>
+    <a routerLink="education" routerLinkActive="active">Education</a>
+    <a routerLink="work" routerLinkActive="active">Work</a>
+    <a routerLink="skill" routerLinkActive="active">Skills</a>
+    <a routerLink="project" routerLinkActive="active">Projects</a>
+    <a routerLink="certification" routerLinkActive="active">Certifications</a>
+  </nav>
+
+  <div class="content">
+    <router-outlet></router-outlet>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Eric Lee Shen Yi</p>
+  </footer>
+</div>

@@ -1,0 +1,16 @@
+.certification {
+  padding: 10px 0;
+}
+
+.certification ul {
+  margin-top: 10px;
+}
+
+.certification li {
+  padding: 12px 0;
+  border-bottom: 1px solid #e8e0d6;
+}
+
+.certification li:last-child {
+  border-bottom: none;
+}
