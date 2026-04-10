@@ -37,3 +37,18 @@ li {
   margin-bottom: 8px;
   line-height: 1.6;
 }
+
+a {
+  color: #8b6f47;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #6b5535;
+}
+
+::selection {
+  background-color: #c9b9a8;
+  color: #2e2a26;
+}
